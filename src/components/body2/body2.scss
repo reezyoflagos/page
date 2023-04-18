@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.body2{
+    margin:80px;
+    
+
+    .inbin{
+        text-align: center;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .flex{
+        img{
+            width:400px;
+        }
+            display: flex;
+            align-items: center;
+            gap:60px;
+           border-radius:10px 10px ;
+            background-color:pink;
+            margin-right:100px;
+            margin-left:60px;
+            place-items: center;
+
+    }
+    .ex{
+        font-size:25px;
+        padding-left:60px;
+        padding-right:170px;
+        
+        p{
+         margin-top:50px;
+         span{
+            font-size:36px;
+            font-weight: 700;
+            margin:10px;
+        }
+        }
+        h5{
+            align-items: center;
+            
+        }
+    }
+}

@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  background-color: whitesmoke;
+  align-items: center;
+}
+.nav .navs span {
+  margin-left: 10px;
+  font-weight: bold;
+}
+.nav .right {
+  display: flex;
+  align-items: center;
+}
+.nav .right ul {
+  display: flex;
+}
+.nav .right ul li {
+  padding: 20px;
+  list-style: none;
+}
+.nav .right button {
+  margin: 20px 0px;
+  padding: 5px 5px 8px 8px;
+  border-radius: 10px 10px;
+  border: none;
+  box-shadow: 5px 5px 5px lightgrey;
+  background-color: lightblue;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

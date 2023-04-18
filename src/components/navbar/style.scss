@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    padding:0 100px;
+    background-color: whitesmoke;
+    align-items: center;
+    .navs{
+        span{
+            margin-left:10px;
+            font-weight:bold;
+        }
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        ul{
+            display: flex;
+            li{
+                padding:20px ;
+                list-style:none;
+            }
+        }
+        button{
+        margin:20px 0px;
+        padding:5px 5px 8px 8px ;
+        border-radius:10px 10px;
+        border:none;
+        box-shadow:5px 5px 5px lightgrey;
+        background-color:lightblue;
+        cursor: pointer;
+        }
+    }
+}

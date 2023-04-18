@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body1 {
+  text-align: center;
+  background-image: url(https://raw.githubusercontent.com/reezyoflagos/we/master/public/images/presentation.png);
+  padding: 260px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px;
+}
+.body1 span {
+  color: lightblue;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+.body1 .line .inline {
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+}
+.body1 .line .din {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.body1 .line .btn {
+  display: flex;
+  padding: 7px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.body1 .line .btn .imga img {
+  width: 20;
+  height: 30px;
+}
+
+.line2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightskyblue;
+  padding: 40px;
+}
+.line2 .ex {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.line2 .ex p {
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  margin-right: 200px;
+}/*# sourceMappingURL=body.css.map */

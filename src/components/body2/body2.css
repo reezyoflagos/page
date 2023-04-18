@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body2 {
+  margin: 80px;
+}
+.body2 .inbin {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.body2 .flex {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  border-radius: 10px 10px;
+  background-color: pink;
+  margin-right: 100px;
+  margin-left: 60px;
+  place-items: center;
+}
+.body2 .flex img {
+  width: 400px;
+}
+.body2 .ex {
+  font-size: 25px;
+  padding-left: 60px;
+  padding-right: 170px;
+}
+.body2 .ex p {
+  margin-top: 50px;
+}
+.body2 .ex p span {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 10px;
+}
+.body2 .ex h5 {
+  align-items: center;
+}/*# sourceMappingURL=body2.css.map */
